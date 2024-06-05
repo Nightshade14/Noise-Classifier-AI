@@ -203,7 +203,7 @@ with strategy.scope():
 # CNN
 
 
-    standard_scaling = False
+standard_scaling = False
 
 X_train_CNN, X_test_CNN, y_train_CNN, y_test_CNN = train_test_split(X, y, test_size=0.15, random_state=random_state, shuffle=is_shuffled, stratify=is_stratified)
 if standard_scaling == True:
