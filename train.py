@@ -1,17 +1,12 @@
 # Importing basic libraries
-import os
 import librosa
 import librosa.display
-import glob
-import skimage
-import pickle
-from tqdm.auto import trange, tqdm
+from tqdm.auto import trange
 
 import pandas as pd
 import numpy as np
 
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
 from sklearn.preprocessing import StandardScaler
 
 basePath = "/kaggle/input/urbansound8k"
@@ -256,7 +251,3 @@ with strategy.scope():
 #     We are not going to use the Early Stopping callback in order to visualize the plateau of the training curves.
 
     history_CNN = model_CNN.fit(X_train_CNN, y_train_CNN, batch_size=256, epochs=500, validation_data=(X_test_CNN, y_test_CNN), validation_batch_size=256)
-
-
-
-
