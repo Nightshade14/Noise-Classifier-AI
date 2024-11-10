@@ -25,3 +25,8 @@ Sound analysis and classification was previously conducted by the NYU’s Music 
 and Progress seed grant. The previous research used Weka’s classic machine learning algorithms with default parameters. The algorithms used were SVM, KNN, Decision Tree, Random Forest, and Baseline Majority vote classifier (ZeroR). My approach would be to introduce Deep Learning into the research and use an ensemble of models whether it be a combination of machine learning and deep learning models. I am new to the audio domain and would also try to find some audio preprocessing to elevate the results. If this project is successful, then it could directly add to NYU’s ongoing project SONYC.
 
 [NYU Project SONYC](https://wp.nyu.edu/sonyc/)
+
+## Technology used:
+- PyTorch
+- Tensorflow
+- Librosa
