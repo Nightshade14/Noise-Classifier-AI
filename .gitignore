@@ -1,0 +1,4 @@
+**/py.typed
+**/uv.lock
+**/**cache**
+**/.venv
