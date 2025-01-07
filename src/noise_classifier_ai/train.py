@@ -309,6 +309,7 @@ with strategy.scope():
         metrics=["accuracy"],
     )
 
+
     #     We are not going to use the Early Stopping callback in order to visualize the plateau of the training curves.
 
     history_CNN = model_CNN.fit(
