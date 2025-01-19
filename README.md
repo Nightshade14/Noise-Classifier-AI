@@ -9,7 +9,7 @@ Classify the sounds of an Urban City into 10 classes: air_conditioner, car_horn,
 ## Problem Importance:
 Sounds in big urban cities can easily go over the healthy noise levels for human hearing system. For instance, it has been estimated that 9 out of 10 adults in New York City (NYC) are exposed to excessive noise levels, i.e., beyond the limit of what the EPA considers to be harmful. When applied to U.S. cities of more than 4 million inhabitants, such estimates extend to over 72 million urban residents. So, it is important to identify noise sources to mitigate it.
 
-## Dataset:
+## Dataset Information:
 UrbanSound8k Dataset. It contains 27 hours of audio with 18.5 hours of annotated sound event occurrences across 10 sound classes. This dataset contains 8732 labeled sound excerpts (<=4s) of urban sounds from 10 classes: air_conditioner, car_horn, children_playing, dog_bark, drilling, engine_idling, gun_shot, jackhammer, siren, and street_music. The classes are drawn from the urban sound taxonomy. The dataset is not preprocessed.
 
 [UrbanSound8k Dataset Link](https://urbansounddataset.weebly.com/urbansound8k.html)
