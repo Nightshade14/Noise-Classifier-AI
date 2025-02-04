@@ -15,7 +15,7 @@ UrbanSound8k Dataset. It contains 27 hours of audio with 18.5 hours of annotated
 [UrbanSound8k Dataset Link](https://urbansounddataset.weebly.com/urbansound8k.html)
 
 ## ML Models: 
-Random Forest, XGBoost, Artificial Neural Network (ANN), Convolutional Neural Network (CNN), etc.
+Decision Tree, Random Forest, XGBoost, Artificial Neural Network (ANN), Convolutional Neural Network (CNN), etc.
 
 ## Accuracy/Error Measures:
 I would explore Accuracy Score, Precision score, Recall Score, F1-score, and F-beta score. And would prioritize the metric which seems relevant to the use case. This could also be a combination of multiple metrics.
