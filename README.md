@@ -30,3 +30,4 @@ and Progress seed grant. The previous research used Weka’s classic machine lea
 - PyTorch
 - Tensorflow
 - Librosa
+- Matplotlib
